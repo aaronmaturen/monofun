@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-// Delete me
-export const Input = ({...props}) => {
-  return <input {...props}/>;
+export const Input = ({name, label, ...props}) => {
+  <>
+    <label for={name}>`${label}`</label>
+    return <input name={name} {...props}/>;
+  </>
 };
