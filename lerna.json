@@ -10,8 +10,7 @@
     "publish": {
       "allowBranch": ["main", "dev", "hotfix/*"],
       "preDistTag": "next",
-      "message": "chore(release): publish",
-      "registry": "http://nexus.mindtap.corp.web/content/repositories/npm.cengage/"
+      "message": "chore(release): publish"
     },
     "version": {
       "changelogPreset": "conventionalcommits",
