@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.0](https://github.com/aaronmaturen/monofun/compare/@aaronmaturen/monofun-input@0.3.2...@aaronmaturen/monofun-input@0.4.0) (2020-11-24)
+
+
+### Features
+
+* **input:** add label ([e73c486](https://github.com/aaronmaturen/monofun/commit/e73c4864f7be191d56c465f3f03cfbcb928ff15d))
+
+
+
 ### [0.3.2](https://github.com/aaronmaturen/monofun/compare/@aaronmaturen/monofun-input@0.3.1...@aaronmaturen/monofun-input@0.3.2) (2020-11-24)
 
 **Note:** Version bump only for package @aaronmaturen/monofun-input
