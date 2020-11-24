@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.4.1](https://github.com/aaronmaturen/monofun/compare/@aaronmaturen/monofun-input@0.4.0...@aaronmaturen/monofun-input@0.4.1) (2020-11-24)
+
+
+### Bug Fixes
+
+* **input:** lazy ts linting ([8e915bf](https://github.com/aaronmaturen/monofun/commit/8e915bff1c1d063a26e68bf77cfafdf8e5aba50c))
+
+
+
 ## [0.4.0](https://github.com/aaronmaturen/monofun/compare/@aaronmaturen/monofun-input@0.3.2...@aaronmaturen/monofun-input@0.4.0) (2020-11-24)
 
 
