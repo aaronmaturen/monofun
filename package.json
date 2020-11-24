@@ -31,7 +31,7 @@
     "lerna": "^3.22.1",
     "lint-staged": "^10.5.2"
   },
-  "husky": {
+  "hhusky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"

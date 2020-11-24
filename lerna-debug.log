@@ -1,0 +1,11 @@
+59 error Error: Command failed: git commit -F /tmp/42a545e1-4fba-4d0c-9ca0-969484404b0e/lerna-commit.txt
+59 error husky > pre-commit (node v12.18.4)
+59 error Config could not be found.
+59 error
+59 error Please make sure you have created it correctly.
+59 error See https://github.com/okonet/lint-staged#configuration.
+59 error husky > pre-commit hook failed (add --no-verify to bypass)
+59 error
+59 error     at makeError (/home/aaron/projects/aaronmaturen/monofun/node_modules/@lerna/child-process/node_modules/execa/index.js:174:9)
+59 error     at /home/aaron/projects/aaronmaturen/monofun/node_modules/@lerna/child-process/node_modules/execa/index.js:278:16
+59 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
