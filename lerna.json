@@ -3,5 +3,20 @@
     "docs",
     "components/*"
   ],
+  "command": {
+    "bootstrap": {
+      "forceLocal": true
+    },
+    "publish": {
+      "allowBranch": ["main", "dev", "hotfix/*"],
+      "preDistTag": "next",
+      "message": "chore(release): publish",
+      "registry": "http://nexus.mindtap.corp.web/content/repositories/npm.cengage/"
+    },
+    "version": {
+      "changelogPreset": "conventionalcommits",
+      "conventionalCommits": true
+    }
+  },
   "version": "independent"
 }
