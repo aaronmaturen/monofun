@@ -4,8 +4,8 @@ on:
   pull_request:
   push:
     branches:
-      - main
-      - dev
+      - mainn
+      - devv
 # on:
 #   schedule:
 #     - cron: '0 10 * * *'
