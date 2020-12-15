@@ -11,28 +11,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - name: Checkoout
+        uses: actions/checkout@v1
+      - name: Setup
+        uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - run: npm ci
-      - run: npm test
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-node@v1
-        with: 
-          node-version: "12.x"
-      - run: npm run build:docs
-      - uses: netlify/actions/cli@master
+      - name: Install
+        run: npm ci
+      - name: Test
+        run: npm test
+      - name: Build 
+        run: npm run build:docs
+      - name: Preview
+        uses: netlify/actions/cli@master
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_BASE: docs
-          NETLIFY_CMD: npm run build
-          NETLIFY_DIR: docs/public
-
         with:
           args: deploy --dir=docs/public --alias ${{ github.event.issue.number }}
-          secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
