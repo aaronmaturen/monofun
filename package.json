@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run --stream build",
+    "build:lite": "lerna run --stream --scope !@aaronmaturen/monofun-gatsby-docs build",
+    "build:docs": "lerna run --stream --scope @aaronmaturen/monofun-gatsby-docs build",
+    "cm": "git-cz",
+    "develop": "lerna run --stream --scope @aaronmaturen/monofun-gatsby-docs develop",
+    "postinstall": "npm run bootstrap",
     "publish": "lerna publish",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "author": "",
   "license": "ISC",
