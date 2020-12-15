@@ -30,3 +30,10 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         with:
           args: deploy --dir=docs/public --alias ${{ github.event.pull_request.number }}
+      - name: comment PR
+        uses: unsplash/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          msg: ${{ env.NETLIFY_LIVE_URL }}
+          check_for_duplicate_msg: false  # OPTIONAL 
