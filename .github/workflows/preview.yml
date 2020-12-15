@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-node@v1
         with: 
           node-version: "12.x"
-      - run: npm build:docs
+      - run: npm run build:docs
       - uses: netlify/actions/cli@master
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
