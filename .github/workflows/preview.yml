@@ -1,0 +1,34 @@
+name: preview
+on:
+  pull_request:
+    branches:
+      - dev
+      - master
+    types: [opened, edited]
+
+    jobs:
+      build:
+        runs-on: ubuntu-latest
+
+        steps:
+          - uses: actions/checkout@v1
+          - uses: actions/setup-node@v1
+            with:
+              node-version: "12.x"
+          - run: npm ci
+          - run: npm test
+      deploy:
+        needs: build
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/setup-node@v1
+            with: 
+              node-version: "12.x"
+          - run: npm build:docs
+          - uses: netlify/actions/cli@master
+            env:
+              NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+              NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+            with:
+              args: deploy --dir=docs/public --alias ${{ github.event.issue.number }}
+              secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
