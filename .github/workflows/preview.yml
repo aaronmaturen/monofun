@@ -29,6 +29,10 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_BASE: docs
+          NETLIFY_CMD: npm run build
+          NETLIFY_DIR: docs/public
+
         with:
           args: deploy --dir=docs/public --alias ${{ github.event.issue.number }}
           secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
