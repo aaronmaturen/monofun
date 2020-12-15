@@ -3,7 +3,7 @@ on:
   pull_request:
     branches:
       - dev
-      - master
+      - main
     types: [opened, edited]
 
 jobs:
