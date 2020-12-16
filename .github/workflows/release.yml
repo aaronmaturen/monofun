@@ -28,7 +28,7 @@ jobs:
           git config --global user.email 'github-bot@users.noreply.github.com'
           npm run publish -- --conventional-graduate --yes
         env:
-          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Publish (Next)
         if: github.ref == 'refs/heads/dev'
         run: |
@@ -36,7 +36,7 @@ jobs:
           git config --global user.email 'github-bot@users.noreply.github.com'
           npm run publish -- --conventional-prerelease --yes
         env:
-          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Build
         run: npm run build:docs
       - name: Deploy to Netlify
