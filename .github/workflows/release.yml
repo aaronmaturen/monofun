@@ -34,7 +34,6 @@ jobs:
       - name: Build
         run: npm run build:docs
       - name: Deploy Next Docs
-        id: netlify-next
         if: github.ref == 'refs/heads/dev'
         uses: netlify/actions/cli@master
         env:
@@ -43,7 +42,6 @@ jobs:
         with:
           args: deploy --dir=packages/react-magma-docs/public --alias next
       - name: Deploy Latest Docs
-        id: netlify-next
         if: github.ref == 'refs/heads/main'
         uses: netlify/actions/cli@master
         env:
