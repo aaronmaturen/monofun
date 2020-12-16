@@ -23,12 +23,18 @@ jobs:
         run: npm test
       - name: Publish (Latest)
         if: github.ref == 'refs/heads/main'
-        run: npm run publish -- --conventional-graduate --yes
+        run: |
+          git config --global user.name 'github-bot'
+          git config --global user.email 'github-bot@users.noreply.github.com'
+          npm run publish -- --conventional-graduate --yes
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Publish (Next)
         if: github.ref == 'refs/heads/dev'
-        run: npm run publish -- --conventional-prerelease --yes
+        run: |
+          git config --global user.name 'github-bot'
+          git config --global user.email 'github-bot@users.noreply.github.com'
+          npm run publish -- --conventional-prerelease --yes
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Build
