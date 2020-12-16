@@ -31,6 +31,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Publish (Next)
         if: github.ref == 'refs/heads/dev'
+        run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
         run: |
           git config --global user.name 'github-bot'
           git config --global user.email 'github-bot@users.noreply.github.com'
