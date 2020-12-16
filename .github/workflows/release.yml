@@ -21,6 +21,9 @@ jobs:
         run: npm ci
       - name: Test
         run: npm test
+      - run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Publish (Latest)
         if: github.ref == 'refs/heads/main'
         run: |
@@ -31,13 +34,10 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Publish (Next)
         if: github.ref == 'refs/heads/dev'
-        run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
         run: |
           git config --global user.name 'github-bot'
           git config --global user.email 'github-bot@users.noreply.github.com'
           npm run publish -- --conventional-prerelease --yes
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Build
         run: npm run build:docs
       - name: Deploy to Netlify
