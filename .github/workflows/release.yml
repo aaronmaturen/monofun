@@ -27,6 +27,7 @@ jobs:
           git config --global user.name 'github-bot'
           git config --global user.email 'github-bot@users.noreply.github.com'
           echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
+          npm whoami
           npm run publish -- --conventional-graduate --yes
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -36,7 +37,7 @@ jobs:
           git config --global user.name 'github-bot'
           git config --global user.email 'github-bot@users.noreply.github.com'
           echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
-          npm run publish -- --conventional-graduate --yes
+          npm whoami
           npm run publish -- --conventional-prerelease --yes
       - name: Build
         run: npm run build:docs
