@@ -4,8 +4,8 @@ import { Input } from '../src';
 
 describe('it', () => {
   it('renders without crashing', () => {
-    const input = document.createElement('input');
-    ReactDOM.render(<Input />, input);
-    ReactDOM.unmountComponentAtNode(input);
+    const div = document.createElement('div');
+    ReactDOM.render(<Input />, div);
+    ReactDOM.unmountComponentAtNode(div);
   });
 });

@@ -21,17 +21,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-### 0.4.2-alpha.0 (2020-12-17)
-
-**Note:** Version bump only for package @aaronmaturen/monofun-textarea
-
-
-
-
-
 ### 0.4.1 (2020-12-17)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-textarea
+**Note:** Version bump only for package @aaronmaturen/monofun-button
 
 
 
@@ -39,7 +31,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.4.1-alpha.1 (2020-12-17)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-textarea
+**Note:** Version bump only for package @aaronmaturen/monofun-button
 
 
 
@@ -47,7 +39,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.4.1-alpha.0 (2020-12-17)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-textarea
+**Note:** Version bump only for package @aaronmaturen/monofun-button
 
 
 
@@ -55,7 +47,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.4.0 (2020-12-16)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-textarea
+**Note:** Version bump only for package @aaronmaturen/monofun-button
 
 
 
@@ -72,7 +64,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.3.3-alpha.3 (2020-12-16)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-textarea
+**Note:** Version bump only for package @aaronmaturen/monofun-button
 
 
 
@@ -80,7 +72,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.3.3-alpha.2 (2020-12-16)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-textarea
+**Note:** Version bump only for package @aaronmaturen/monofun-button
 
 
 
@@ -88,7 +80,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.3.3-alpha.1 (2020-12-16)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-textarea
+**Note:** Version bump only for package @aaronmaturen/monofun-button
 
 
 
@@ -96,7 +88,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.3.3-alpha.0 (2020-12-16)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-textarea
+**Note:** Version bump only for package @aaronmaturen/monofun-button
 
 
 

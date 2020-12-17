@@ -4,8 +4,8 @@ import { Textarea } from '../src';
 
 describe('it', () => {
   it('renders without crashing', () => {
-    const textarea = document.createElement('textarea');
-    ReactDOM.render(<Textarea />, textarea);
-    ReactDOM.unmountComponentAtNode(textarea);
+    const div = document.createElement('div');
+    ReactDOM.render(<Textarea />, div);
+    ReactDOM.unmountComponentAtNode(div);
   });
 });

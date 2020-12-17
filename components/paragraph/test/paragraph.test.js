@@ -4,8 +4,8 @@ import { Paragraph } from '../src';
 
 describe('it', () => {
   it('renders without crashing', () => {
-    const image = document.createElement('image');
-    ReactDOM.render(<Paragraph />, image);
-    ReactDOM.unmountComponentAtNode(image);
+    const div = document.createElement('div');
+    ReactDOM.render(<Paragraph />, div );
+    ReactDOM.unmountComponentAtNode(div);
   });
 });

@@ -59,16 +59,16 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'chore: merge changes from publish into dev'
-          committer: GitHub <noreply@github.com>
-          author: actions-bot <actions-bot@users.noreply.github.com>
+          committer: github-bot <github-bot@users.noreply.github.com>
+          author: github-bot <github-bot@users.noreply.github.com>
           title: 'chore: merge changes from publish into dev'
           branch: dev
       - name: Create Release
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main_skip_for_now'
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
