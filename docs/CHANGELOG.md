@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.0-alpha.0 (2020-12-17)
+
+
+### Features
+
+* **anchor:** add anchor ([7f97ea6](https://github.com/gatsbyjs/gatsby-starter-hello-world/commit/7f97ea6e63a151a889c544e836037364134e7059))
+
+
+
 ### 0.2.2-alpha.0 (2020-12-17)
 
 **Note:** Version bump only for package @aaronmaturen/monofun-gatsby-docs
