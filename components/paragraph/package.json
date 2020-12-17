@@ -36,16 +36,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@aaronmaturen/monofun-image",
+  "name": "@aaronmaturen/monofun-paragraph",
   "author": "Maturen, Aaron T.",
-  "module": "dist/monofun-image.esm.js",
+  "module": "dist/monofun-paragraph.esm.js",
   "size-limit": [
     {
-      "path": "dist/monofun-image.cjs.production.min.js",
+      "path": "dist/monofun-paragraph.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/monofun-image.esm.js",
+      "path": "dist/monofun-paragraph.esm.js",
       "limit": "10 KB"
     }
   ],

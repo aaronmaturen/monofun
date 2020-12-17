@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.4.1-alpha.1 (2020-12-17)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-button
+**Note:** Version bump only for package @aaronmaturen/monofun-paragraph
 
 
 
@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.4.1-alpha.0 (2020-12-17)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-button
+**Note:** Version bump only for package @aaronmaturen/monofun-paragraph
 
 
 
@@ -21,7 +21,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.4.0 (2020-12-16)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-button
+**Note:** Version bump only for package @aaronmaturen/monofun-paragraph
 
 
 
@@ -38,7 +38,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.3.3-alpha.3 (2020-12-16)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-button
+**Note:** Version bump only for package @aaronmaturen/monofun-image
 
 
 
@@ -46,7 +46,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.3.3-alpha.2 (2020-12-16)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-button
+**Note:** Version bump only for package @aaronmaturen/monofun-image
 
 
 
@@ -54,7 +54,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.3.3-alpha.1 (2020-12-16)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-button
+**Note:** Version bump only for package @aaronmaturen/monofun-image
 
 
 
@@ -62,7 +62,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### 0.3.3-alpha.0 (2020-12-16)
 
-**Note:** Version bump only for package @aaronmaturen/monofun-button
+**Note:** Version bump only for package @aaronmaturen/monofun-image
 
 
 

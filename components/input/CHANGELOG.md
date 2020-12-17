@@ -3,6 +3,71 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.5.1-alpha.1 (2020-12-17)
+
+**Note:** Version bump only for package @aaronmaturen/monofun-input
+
+
+
+
+
+### 0.5.1-alpha.0 (2020-12-17)
+
+**Note:** Version bump only for package @aaronmaturen/monofun-input
+
+
+
+
+
+## 0.5.0 (2020-12-16)
+
+**Note:** Version bump only for package @aaronmaturen/monofun-input
+
+
+
+
+
+## 0.5.0-alpha.0 (2020-12-16)
+
+
+### Features
+
+* **paragraph:** implement paragraph component ([1e59c56](https://github.com/aaronmaturen/monofun/commit/1e59c56c233c5deac37a4415b06be09dd71cd093))
+
+
+
+### 0.4.3-alpha.3 (2020-12-16)
+
+**Note:** Version bump only for package @aaronmaturen/monofun-input
+
+
+
+
+
+### 0.4.3-alpha.2 (2020-12-16)
+
+**Note:** Version bump only for package @aaronmaturen/monofun-input
+
+
+
+
+
+### 0.4.3-alpha.1 (2020-12-16)
+
+**Note:** Version bump only for package @aaronmaturen/monofun-input
+
+
+
+
+
+### 0.4.3-alpha.0 (2020-12-16)
+
+**Note:** Version bump only for package @aaronmaturen/monofun-input
+
+
+
+
+
 ### [0.4.2](https://github.com/aaronmaturen/monofun/compare/@aaronmaturen/monofun-input@0.4.1...@aaronmaturen/monofun-input@0.4.2) (2020-11-24)
 
 
