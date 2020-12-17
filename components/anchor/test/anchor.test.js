@@ -4,8 +4,8 @@ import { Anchor } from '../src';
 
 describe('it', () => {
   it('renders without crashing', () => {
-    const a = document.createElement('a');
-    ReactDOM.render(<Anchor />, a);
-    ReactDOM.unmountComponentAtNode(a);
+    const div = document.createElement('div');
+    ReactDOM.render(<Anchor />, div);
+    ReactDOM.unmountComponentAtNode(div);
   });
 });
