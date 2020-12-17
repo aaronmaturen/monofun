@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-export const Input = ({...props}) => {
+export const Input = ({label, ...props}) => {
   return (
     <>
-      <label htmlFor={props.name}>`${props.label}`</label>
-      <input name={props.name} {...props}/>;
+      <label htmlFor={props.id}>`${props.label}`</label>
+      <input {...props}/>;
     </>
   )
 };
