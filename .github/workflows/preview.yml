@@ -23,22 +23,18 @@ jobs:
         run: npm test
       - name: Build
         run: npm run build:docs
-      - name: Deploy PR Preview
-        id: netlify
+      - name: Deploy to Netlify
         if: github.event_name == 'pull_request'
-        uses: netlify/actions/cli@master
+        uses: nwtgck/actions-netlify@v1.1
+        with:
+          publish-dir: './docs/public'
+          production-branch: main
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: true
+          enable-commit-comment: true
+          overwrites-pull-request-comment: true
+          alias: deploy-preview-${{ github.event.number }}
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        with:
-          args: deploy --dir=docs/public --alias ${{ github.event.pull_request.number }}
-      - name: Comment deploy preview URL
-        if: github.event_name == 'pull_request'
-        uses: unsplash/comment-on-pr@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OUTPUT: "This pull request has automatically deployed to Netlify. Preview at: ${{ steps.netlify.outputs.NETLIFY_URL }}"
-        with:
-          msg: ${{ env.OUTPUT }}
-          check_for_duplicate_msg: false
-
