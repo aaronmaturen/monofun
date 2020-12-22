@@ -1,5 +1,3 @@
 import * as React from 'react';
-
-export const Textarea = ({ ...props }) => {
-  return <textarea {...props} />;
-};
+export interface TextAreaProps extends React.HTMLAttributes<HTMLTextAreaElement> {}
+export const TextArea: React.FC<TextAreaProps> = (props) =>  <textarea {...props} />

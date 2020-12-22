@@ -1,5 +1,3 @@
 import * as React from 'react';
-
-export const Image = ({ ...props }) => {
-  return <img {...props} />;
-};
+export interface ImageProps extends React.HTMLAttributes<HTMLImageElement> {}
+export const Image: React.FC<ImageProps> = (props) => <img {...props} />;
