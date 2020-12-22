@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "getAlias": "node components/react/scripts/getAlias.js",
+    "bootstrap": "lerna --stream bootstrap",
     "build": "lerna run --stream build",
     "build:lite": "lerna run --stream --scope !@aaronmaturen/monofun-gatsby-docs build",
     "build:docs": "lerna run --stream --scope @aaronmaturen/monofun-gatsby-docs build",
     "cm": "git-cz",
     "develop": "lerna run --stream --scope @aaronmaturen/monofun-gatsby-docs develop",
     "postinstall": "npm run bootstrap",
-    "publish": "lerna publish",
+    "publish": "lerna publish --stream",
     "test": "jest"
   },
   "author": "",
