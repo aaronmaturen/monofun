@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-export const Input = ({label, ...props}) => {
-  return (
-    <>
-      <label htmlFor={props.id}>`${props.label}`</label>
-      <input {...props}/>;
-    </>
-  )
-};
+export interface InputProps extends React.HTMLAttributes<HTMLInputElement> {
+  label: string;
+}
+
+export const Input: React.FC<InputProps> = ({label, ...props}) => <>
+  <label htmlFor={props.id}>{label}</label>
+  <input {...props}/>;
+</>;
