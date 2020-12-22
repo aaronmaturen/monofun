@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "getAlias": "node components/react/scripts/getAlias.js",
-    "bootstrap": "lerna bootstrap --stream",
+    "bootstrap": "lerna bootstrap",
     "build": "lerna run --stream build",
     "build:lite": "lerna run --stream --scope !@aaronmaturen/monofun-gatsby-docs build",
     "build:docs": "lerna run --stream --scope @aaronmaturen/monofun-gatsby-docs build",
