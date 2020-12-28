@@ -38,7 +38,7 @@ const filterNPM = ({versions, 'dist-tags': tags, time}) => {
 }
 
 const getAllVersions = () => {
-  return axios.get('https://registry.npmjs.org/@aaronmaturen/monofun-react')
+  return axios.get('https://registry.npmjs.org/@aaronmaturen/monofun-input')
     .then(({data}) => filterNPM(data))
 }
 
