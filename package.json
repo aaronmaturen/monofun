@@ -12,7 +12,7 @@
     "cm": "git-cz",
     "develop": "lerna run --stream --scope @aaronmaturen/monofun-gatsby-docs develop",
     "postinstall": "npm run bootstrap && npm run build:lite",
-    "publish": "lerna publish --stream",
+    "publish": "lerna publish",
     "test": "jest"
   },
   "author": "",
