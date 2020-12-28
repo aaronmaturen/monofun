@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.5.3](https://github.com/aaronmaturen/monofun/compare/@aaronmaturen/monofun-image@0.5.2...@aaronmaturen/monofun-image@0.5.3) (2020-12-28)
+
+
+### Bug Fixes
+
+* **ts:** add props to everything ([b970bcc](https://github.com/aaronmaturen/monofun/commit/b970bccaf4e88a563064c9f1e6ff8078c8f1f475))
+
+
+
 ### 0.5.2 (2020-12-17)
 
 **Note:** Version bump only for package @aaronmaturen/monofun-image

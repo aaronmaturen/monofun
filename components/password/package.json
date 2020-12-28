@@ -1,5 +1,5 @@
 {
-  "version": "0.6.2",
+  "version": "0.7.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -62,6 +62,6 @@
   },
   "gitHead": "77081574ebbe73919ee4dfab9a0d1401a0f10c61",
   "dependencies": {
-    "@aaronmaturen/monofun-input": "^0.6.2"
+    "@aaronmaturen/monofun-input": "0.6.3"
   }
 }

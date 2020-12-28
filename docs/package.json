@@ -2,7 +2,7 @@
   "name": "@aaronmaturen/monofun-gatsby-docs",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",

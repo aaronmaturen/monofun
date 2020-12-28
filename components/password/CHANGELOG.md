@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.7.0 (2020-12-28)
+
+
+### Features
+
+* **password:** add password component ([6ddc951](https://github.com/aaronmaturen/monofun/commit/6ddc951538b3b0e72ece54968b60ef013c9c1fff))
+
+
+
 ### 0.6.2 (2020-12-17)
 
 **Note:** Version bump only for package @aaronmaturen/monofun-input

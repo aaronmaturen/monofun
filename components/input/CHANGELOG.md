@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.6.3](https://github.com/aaronmaturen/monofun/compare/@aaronmaturen/monofun-input@0.6.2...@aaronmaturen/monofun-input@0.6.3) (2020-12-28)
+
+
+### Bug Fixes
+
+* **button, react:** add button to react lock ([fc1d2f2](https://github.com/aaronmaturen/monofun/commit/fc1d2f2840ff3f3df93f3c61ff8b68a24b28252f))
+* **input:** typings ([56c387d](https://github.com/aaronmaturen/monofun/commit/56c387dbc2c86f04b3a341a59960d63ae3d6f0cb))
+* **ts:** add props to everything ([b970bcc](https://github.com/aaronmaturen/monofun/commit/b970bccaf4e88a563064c9f1e6ff8078c8f1f475))
+
+
+
 ### 0.6.2 (2020-12-17)
 
 **Note:** Version bump only for package @aaronmaturen/monofun-input
