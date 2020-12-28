@@ -11,7 +11,7 @@
     "build:docs": "lerna run --stream --scope @aaronmaturen/monofun-gatsby-docs build",
     "cm": "git-cz",
     "develop": "lerna run --stream --scope @aaronmaturen/monofun-gatsby-docs develop",
-    "postinstall": "npm run bootstrap && npm run build:lite",
+    "postinstall": "npm run bootstrap && npm run build",
     "publish": "lerna publish",
     "test": "jest"
   },
