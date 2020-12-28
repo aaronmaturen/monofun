@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.7.2-alpha.0 (2020-12-28)
+
+
+### Bug Fixes
+
+* **landing:** switch to versions from input ([bec53e0](https://github.com/aaronmaturen/monofun/commit/bec53e0ccb5dacf792fa627c99d8e7d665e6d297))
+
+
+
 ### [0.7.1](https://github.com/aaronmaturen/monofun/compare/@aaronmaturen/monofun-password@0.7.0...@aaronmaturen/monofun-password@0.7.1) (2020-12-28)
 
 **Note:** Version bump only for package @aaronmaturen/monofun-password
