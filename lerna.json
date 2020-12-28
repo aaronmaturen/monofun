@@ -14,8 +14,10 @@
     },
     "version": {
       "changelogPreset": "conventionalcommits",
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "exact": true
     }
   },
+  "registry": "https://registry.npmjs.org/",
   "version": "independent"
 }

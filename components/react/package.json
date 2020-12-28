@@ -33,7 +33,7 @@
   },
   "name": "@aaronmaturen/monofun-react",
   "author": "Aaron Maturen",
-  "module": "dist/moonofun-react.esm.js",
+  "module": "dist/monofun-react.esm.js",
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
@@ -45,10 +45,11 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "@aaronmaturen/monofun-button": "^0.5.2",
-    "@aaronmaturen/monofun-image": "^0.5.2",
-    "@aaronmaturen/monofun-input": "^0.6.2",
-    "@aaronmaturen/monofun-paragraph": "^0.5.2",
-    "@aaronmaturen/monofun-textarea": "^0.5.2"
+    "@aaronmaturen/monofun-button": "^0.0.1",
+    "@aaronmaturen/monofun-image": "^0.0.1",
+    "@aaronmaturen/monofun-input": "^0.0.1",
+    "@aaronmaturen/monofun-paragraph": "^0.0.1",
+    "@aaronmaturen/monofun-password": "^0.0.1",
+    "@aaronmaturen/monofun-textarea": "^0.0.1"
   }
 }

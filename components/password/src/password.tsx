@@ -3,9 +3,8 @@ import { InputProps, Input } from '@aaronmaturen/monofun-input';
 
 export interface PasswordProps extends InputProps {}
 
-export const Password: React.FC<PasswordProps> = ({ label, ...props }) => (
+export const Password: React.FC<PasswordProps> = props => (
   <>
-    <label htmlFor={props.id}>{label}</label>
-    <Input {...props} type="password" />;
+    <Input {...props} />;
   </>
 );
