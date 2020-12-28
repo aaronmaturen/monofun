@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.5.5-alpha.0 (2020-12-28)
+
+
+### Bug Fixes
+
+* **landing:** switch to versions from input ([bec53e0](https://github.com/aaronmaturen/monofun/commit/bec53e0ccb5dacf792fa627c99d8e7d665e6d297))
+
+
+
 ### [0.5.4](https://github.com/aaronmaturen/monofun/compare/@aaronmaturen/monofun-paragraph@0.5.3...@aaronmaturen/monofun-paragraph@0.5.4) (2020-12-28)
 
 **Note:** Version bump only for package @aaronmaturen/monofun-paragraph
